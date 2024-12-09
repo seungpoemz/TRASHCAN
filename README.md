@@ -31,7 +31,7 @@ pip install -r requirements.txt
   Upload the credentials.json file (downloaded from your Google Cloud Service Account) into the project directory.
 
 - Set Up the Project on GCP  
-  Ensure that your project is linked to a billing account so that resources can be used without restrictions. 
+  Ensure that your project is linked to a billing account so that resources can be used without restrictions (e.g., Cloud Run, Cloud Storage, Firestore).
 
 - Run the server
 
@@ -39,6 +39,28 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 ## *Locations API*
+- Clone the repository to your local machine and change the directory to maps-demo
+  
+```bash
+git clone https://github.com/TRASCAN-app/Cloud-Computing.git
+cd Cloud-Computing/maps-demo/
+```
 
+- Install All Dependencies
 
+```bash
+npm install
+```
+
+- Set Up Service Account Credentials  
+  Upload the credentials.json file (downloaded from your Google Cloud Service Account) into the project directory.
+
+- Set Up the Project on GCP  
+  Ensure that your project is linked to a billing account so that resources can be used without restrictions (e.g., Cloud Run, Places API, etc.).
+
+- Run the server
+
+```bash
+node index.js
+```
 
