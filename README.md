@@ -36,15 +36,39 @@ Antonieta Aryuka Paskalia Nggotu - C269B4KX0591
 3. Choose a **Firestore mode** (Native or Datastore).
 4. Select your region and click **Create Database**.
 
----
+## **4. Deploy to Cloud Run**
+1. **Open Cloud Shell**  
+   Click [here](https://shell.cloud.google.com/) to open your Google Cloud Shell.
 
-## **4. Deploy to Cloud Run Using Cloud Build**
+2. **Set Your Project**  
+   Set the active project by running:  
+   ```bash
+   gcloud config set project [PROJECT_ID]
+   ```
 
-### Enable Required Services
-Enable Cloud Build and Container Registry services:
+- Open your Cloud Shell by clicking [here](https://shell.cloud.google.com/).
+- Set your project.
 ```bash
-gcloud services enable cloudbuild.googleapis.com containerregistry.googleapis.com
-
+  gcloud config set project [PROJECT_ID]
+```
+- Clone this repository by the below command and go to the trascan-be directory. 
+```bash
+  git clone https://github.com/TRASCAN-app/Cloud-Computing.git 
+  cd Cloud-Computing/trascan-be/
+```
+- Upload your Service Account Credentials to the directory.
+- Rename the file as `credentials.json`.
+- Edit the main.py file to change your cloud bucket name.
+```bash
+  nano main.py
+```
+- Save it by typing `CTRL`+`X`, `Y`, `Enter`.
+- Deploy the API by running the command on your cloud shell.
+```bash
+  gcloud run deploy --source .
+```
+- Type `trascan-app-be` as the service name and select your region the same as your bucket.
+- WWait for the deployment to finish.
 
 
 
