@@ -25,7 +25,7 @@ cd Cloud-Computing/trascan-be/
 pip install -r requirements.txt
 ```
 
-- Set Up Service Account Credentials
+- Set Up Service Account Credentials  
   Upload the credentials.json file (downloaded from your Google Cloud Service Account) into the project directory.
 
 - Run the server
