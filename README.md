@@ -29,7 +29,7 @@ pip install -r requirements.txt
   Upload the credentials.json file (downloaded from your Google Cloud Service Account) into the project directory.
 
 - Set Up the Project on GCP  
-  Ensure that your project is linked to a billing account so that the resources can be used.
+  Ensure that your project is linked to a billing account so that resources can be used without restrictions. 
 
 - Run the server
 
