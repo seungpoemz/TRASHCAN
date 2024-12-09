@@ -13,7 +13,7 @@ Antonieta Aryuka Paskalia Nggotu - C269B4KX0591
 
 ## **Running the classification and articles API Locally**
 
--Clone the repository to your local machine and change the directory to trascan-be
+- Clone the repository to your local machine and change the directory to trascan-be
 ```bash
 git clone https://github.com/TRASCAN-app/Cloud-Computing.git
 cd Cloud-Computing/trascan-be/
