@@ -11,7 +11,9 @@ Antonieta Aryuka Paskalia Nggotu - C269B4KX0591
 # API ENDPOINT
 [TRASCAN API Documentation](https://lacy-sting-8e9.notion.site/TRASCAN-API-15328cfc24d580c8a8a2f44c637b7e00)
 
-## **Running the classification and articles API Locally**
+## **Running the API Locally**
+
+## *Classification and Articles API*
 
 - Clone the repository to your local machine and change the directory to trascan-be
 ```bash
@@ -36,7 +38,7 @@ pip install -r requirements.txt
 ```bash
 uvicorn main:app --reload
 ```
-
+## *Locations API*
 
 
 
