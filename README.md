@@ -43,7 +43,7 @@ uvicorn main:app --reload
   
 ```bash
 git clone https://github.com/TRASCAN-app/Cloud-Computing.git
-cd Cloud-Computing/maps-demo/
+cd Cloud-Computing/endpoint-map-main/
 ```
 
 - Install All Dependencies
