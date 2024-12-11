@@ -52,11 +52,18 @@ cd Cloud-Computing/endpoint-map-main/
 npm install
 ```
 
+- Create a file named .env in the root directory of your project  
+  Add your Google Maps API key to the .env file:  
+  
+  ```bash
+   GOOGLE_MAPS_API_KEY=your-api-key-here
+  ```
+
 - Set Up Service Account Credentials  
   Upload the credentials.json file (downloaded from your Google Cloud Service Account) into the project directory.
 
 - Set Up the Project on GCP  
-  Ensure that your project is linked to a billing account so that resources can be used without restrictions (e.g., Cloud Run, Places API, etc.).
+  Ensure that your project is linked to a billing account so that resources can be used without restrictions (e.g., Cloud Run, Places API, etc.)
 
 - Run the server
 
